@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        int a = 10;
+        int b = 0;
+        
+        System.out.println("Division: " + (a / b)); // divide by zero
+        
+        int[] arr = new int[5];
+        arr[10] = 100; // array out of bounds
+        
+        String str = null;
+        System.out.println(str.length()); // null pointer exception
+    }
+}
